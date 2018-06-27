@@ -1,11 +1,13 @@
 {
   "name": "temple-server",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "temple server",
   "main": "server.js",
-  "directories": {
-    "lib": "lib"
-  },
+  "manifest": [{
+    "version": "0.0.1",
+    "file": ["main.js", "ctl", "lib", "config", "middleware", "static"],
+    "detail": ["第一版"]
+  }],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "fibjs server.js"
