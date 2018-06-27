@@ -1,0 +1,22 @@
+{
+  "name": "temple-server",
+  "version": "1.0.0",
+  "description": "temple server",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "fibjs server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://kevinchen8621:d9irm57fy0@gitee.com/kevinchen8621/temple-server.git"
+  },
+  "keywords": [
+    "temple"
+  ],
+  "author": "kevinchen8621@gmail.com",
+  "license": "ISC"
+}
